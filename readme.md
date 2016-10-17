@@ -10,6 +10,9 @@ Commit after each question.
 
 ## Javascript: Part II
 
+> At a bare minimum, you should be able to complete objectives 1-4 can be completed, though you should be able to also complete 5 & 6 as well using what we have learned in class so far.
+
+
 1. In `index.html`, link to a jQuery CDN.
 
 1. Link to `stoplight.js` in `index.html`
