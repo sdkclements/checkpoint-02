@@ -5,9 +5,15 @@ $(document).ready(function() {
     var handleBulbClick = function() {
         $(this).addClass('active')
         $(this).siblings().removeClass('active');
+        if ($(this).attr('id') === "yellow")
+            setTimeout(function() {
+                $('#red').addClass("active")
+                $('#yellow').removeClass("active");
+            }, 2000);
+
     }
     light.on('click', handleBulbClick)
-    
+
 
     // var yellow = $('#yellow');
 
@@ -16,7 +22,7 @@ $(document).ready(function() {
     //         // $(this).delay(2000)
     //         console.log('hi 1')
     //         $(this).removeClass('active').delay(2000)
-             
+
     //         $('#red').addClass('active');
     //          console.log('hi 3')
     //     } else {
